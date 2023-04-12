@@ -3,6 +3,17 @@
   padding: 0;
 }
 
-* html {
+html {
   box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: red;
+  width: 50px;
+}
+
+.nav .navlist {
+  background-color: blue;
 }
